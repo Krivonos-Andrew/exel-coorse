@@ -1,0 +1,41 @@
+{
+  "name": "exel-course",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "browserslist": [
+    ">2%, not dead"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cross-env NODE_ENV=development webpack-dev-server --open",
+    "build": "cross-env NODE_ENV=production webpack --mode production"
+  },
+  "keywords": [],
+  "author": "Andrey Krivonos",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.21.8",
+    "@babel/preset-env": "^7.21.5",
+    "babel-eslint": "latest",
+    "babel-loader": "^9.1.2",
+    "clean-webpack-plugin": "^4.0.0",
+    "copy-webpack-plugin": "^11.0.0",
+    "cross-env": "^7.0.3",
+    "css-loader": "^6.7.4",
+    "eslint": "latest",
+    "eslint-config-google": "latest",
+    "eslint-loader": "^4.0.2",
+    "html-webpack-plugin": "^5.5.1",
+    "mini-css-extract-plugin": "^2.7.6",
+    "sass": "^1.62.1",
+    "sass-loader": "^13.2.2",
+    "webpack": "^5.83.1",
+    "webpack-cli": "^5.1.1",
+    "webpack-dev-server": "^4.15.0"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "browserlist": "^1.0.1"
+  }
+}
